@@ -6,9 +6,9 @@
 }
 body{
   background-image: url("IMC-O-que-é-IMC-como-calcular-tabela-e-IMC-ideal.svg");
-  background-position: top center;
+  background-position: center top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: fixed;
   display: flex;
   justify-content: center;
 }
@@ -65,4 +65,10 @@ p{
   margin-top: 20px;
   font-size: 20px;
   font-weight: 700;
+}
+
+@media (max-width: 380px){
+  form{
+    width: 230px;
+  }
 }
